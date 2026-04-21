@@ -1,76 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Saberalpha | Gaming & Tech</title>
-
-<style>
-body {margin:0;font-family:Arial;background:#0f172a;color:#e2e8f0;}
-header {background:#020617;padding:20px;text-align:center;border-bottom:2px solid #38bdf8;}
-header h1 {margin:0;color:#38bdf8;}
-nav a {color:#e2e8f0;margin:0 15px;text-decoration:none;font-weight:bold;}
-nav a:hover {color:#22c55e;}
-
-.hero {
-background:url('https://picsum.photos/1200/400?random=1') center/cover no-repeat;
-height:350px;display:flex;align-items:center;justify-content:center;
-}
-.hero h2 {background:rgba(0,0,0,0.6);padding:20px;border-radius:10px;}
-
-.container {max-width:1000px;margin:auto;padding:20px;}
-
-.cards {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
-
-.card {background:#1e293b;padding:15px;border-radius:10px;}
-.card img {width:100%;border-radius:8px;}
-.card h3 {color:#38bdf8;}
-
-footer {text-align:center;padding:15px;background:#020617;margin-top:40px;color:#94a3b8;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saberalpha | Modern Gaming & Tech Insights</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>Saberalpha 🎮</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="blogs.html">Blog</a>
-</nav>
-</header>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Saberalpha 🎮</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="blogs.html">Blog</a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-<section class="hero">
-<h2>Level Up Your Gaming & Tech 🚀</h2>
-</section>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Level Up Your Gaming & Tech Knowledge 🚀</h1>
+                <p>Deep dives into the latest gaming hardware, software innovations, and the future of technology.</p>
+                <a href="blogs.html" class="btn">Explore Articles</a>
+            </div>
+        </section>
 
-<div class="container">
+        <section class="container">
+            <h2 class="section-title">🔥 Featured Insights</h2>
 
-<h2>🔥 Featured</h2>
+            <div class="cards">
 
-<div class="cards">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80"
+                        alt="AI in Gaming">
+                    <div class="card-content">
+                        <span class="card-tag">Artificial Intelligence</span>
+                        <h3>The Evolution of AI in Modern Gaming</h3>
+                        <p>How neural networks and machine learning are creating more immersive, responsive game worlds.
+                        </p>
+                        <a href="ai-in-gaming.html" class="read-more">Read Article →</a>
+                    </div>
+                </article>
 
-<div class="card">
-<img src="https://picsum.photos/400/250?random=2">
-<h3>Gaming Setup Guide</h3>
-<p>Build a powerful setup easily.</p>
-<a href="blogs.html">Read More →</a>
-</div>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
+                        alt="Best Games 2026">
+                    <div class="card-content">
+                        <span class="card-tag">Gaming</span>
+                        <h3>The Best Games of 2026: The Hype is Real</h3>
+                        <p>From GTA VI to Fable, 2026 is shaping up to be one of the biggest years in gaming history.
+                            Here's what to watch.</p>
+                        <a href="anticipated-games-2026.html" class="read-more">Read Article →</a>
+                    </div>
+                </article>
 
-<div class="card">
-<img src="https://picsum.photos/400/250?random=3">
-<h3>Seedr Cloud Review</h3>
-<p>Download & stream smarter.</p>
-<a href="blogs.html">Read Article →</a>
-</div>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1544396821-4dd40b938ad3?auto=format&fit=crop&w=800&q=80"
+                        alt="Seedr Cloud Review">
+                    <div class="card-content">
+                        <span class="card-tag">Tech Review</span>
+                        <h3>Seedr Cloud Review: Download Smarter</h3>
+                        <p>A deep dive into how Seedr is changing the way we handle large files in the cloud era.</p>
+                        <a href="seedr.html" class="read-more">Read Review →</a>
+                    </div>
+                </article>
 
-</div>
+            </div>
+        </section>
+    </main>
 
-</div>
-
-<footer>
-© 2026 Saberalpha
-</footer>
+    <footer>
+        <div class="container">
+            <span class="footer-logo">Saberalpha</span>
+            <p>© 2026 Saberalpha | Built for Gamers & Tech Enthusiasts</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>
